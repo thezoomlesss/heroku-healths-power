@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const port = 3000;
 
 var fs = require('fs');
 
@@ -26,5 +25,7 @@ app.get('/blog-single', (req, res) =>{
 
 
 
-
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+const port = process.env.PORT || 8080;
+app.listen(port, () => {
+  console.log('Express server listening on port', port)
+});
