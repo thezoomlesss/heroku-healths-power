@@ -80,15 +80,15 @@ jQuery(function($){
   /* ----------------------------------------------------------- */
   /*  5. SHEF SLIDER (SLICK SLIDER)
   /* ----------------------------------------------------------- */    
-
+  
     jQuery('.mu-chef-nav').slick({
-      dots: true,
+      dots: false,
       arrows: false,
       infinite: true,
       speed: 300,
       slidesToShow: 4,
-      slidesToScroll: 2,
-      autoplay: true,
+      slidesToScroll: 1,
+      autoplay: false,
       autoplaySpeed: 2500,
       responsive: [
         {

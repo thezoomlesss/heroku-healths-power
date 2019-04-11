@@ -6758,3 +6758,9 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+#mu-header > nav > div > div.navbar-header > a > img {
+  width: 250px;
+height: 55px;
+margin-top: -15px;
+}

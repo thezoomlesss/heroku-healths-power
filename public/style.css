@@ -390,7 +390,7 @@ img {
   display: inline;
   float: left;
   width: 100%;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 #mu-about-us .mu-about-us-area {
   display: inline;
@@ -405,7 +405,8 @@ img {
   width: 100%;
 }
 #mu-about-us .mu-about-us-area .mu-about-us-left p {
-  line-height: 24px;
+  line-height: 30px;
+  text-align: justify;
 }
 #mu-about-us .mu-about-us-area .mu-about-us-left ul {
   margin-bottom: 20px;
@@ -542,7 +543,7 @@ img {
   display: inline;
   float: left;
   width: 100%;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 #mu-restaurant-menu .mu-restaurant-menu-area {
   display: inline;
@@ -772,7 +773,7 @@ RESERVATION SECTION
 #mu-gallery {
   display: inline;
   float: left;
-  padding: 100px 0;
+  padding: 50px 0;
   width: 100%;
 }
 #mu-gallery .mu-gallery-area {
@@ -1088,7 +1089,7 @@ RESERVATION SECTION
 #mu-chef {
   display: inline;
   float: left;
-  padding: 100px 0;
+  padding: 50px 0;
   width: 100%;
 }
 #mu-chef .mu-chef-area {
@@ -1295,7 +1296,7 @@ RESERVATION SECTION
 #mu-contact {
   display: inline;
   float: left;
-  padding: 100px 0;
+  padding: 50px 0;
   width: 100%;
 }
 #mu-contact .mu-contact-area {
@@ -1374,7 +1375,7 @@ RESERVATION SECTION
 #mu-contact .mu-contact-area .mu-contact-content .mu-contact-right .mu-contact-widget address p span {
   display: inline-block;
   margin-right: 20px;
-  min-width: 130px;
+  min-width: 150px;
 }
 
 /*==================
@@ -2424,4 +2425,27 @@ RESERVATION SECTION
   .mu-news-single .mu-news-single-content .mu-meta-nav li {   
     border-right: none;
   }
+}
+
+#breakfast > div > div > div > div > ul > li > div > div.media-body > ul > li{
+    margin-bottom: 0px !important;
+    border-bottom: 0px !important;
+}
+ul.test{
+  list-style-type: square;
+  list-style: square;
+}
+#breakfast > div > div > div > div > ul > li > div > div.media-body > ul.test > li{
+  display: list-item !important;
+}
+ul.test > span.breakfast{
+  display: block;
+  margin-bottom: 15px;
+}
+li.hidden-bs{
+  display: none !important;
+}
+#snacks > div > div > div:nth-child(1) > div > ul > li:nth-child(2) > div > div.media-body{
+  display: block;
+  margin-left: 120px;
 }
